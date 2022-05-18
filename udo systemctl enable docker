@@ -1,0 +1,21 @@
+[0;1;32m●[0m docker.service - Docker Application Container Engine
+     Loaded: loaded (/lib/systemd/system/docker.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Wed 2022-05-18 00:41:47 -03; 43min ago
+TriggeredBy: [0;1;32m●[0m docker.socket
+       Docs: https://docs.docker.com
+   Main PID: 13195 (dockerd)
+      Tasks: 9
+     Memory: 17.0M
+     CGroup: /system.slice/docker.service
+             └─13195 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+
+mai 18 00:41:46 Aspire-E5-574 dockerd[13195]: time="2022-05-18T00:41:46.628586013-03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+mai 18 00:41:46 Aspire-E5-574 dockerd[13195]: time="2022-05-18T00:41:46.628610937-03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+mai 18 00:41:46 Aspire-E5-574 dockerd[13195]: time="2022-05-18T00:41:46.628617999-03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+mai 18 00:41:46 Aspire-E5-574 dockerd[13195]: time="2022-05-18T00:41:46.628801443-03:00" level=info msg="Loading containers: start."
+mai 18 00:41:46 Aspire-E5-574 dockerd[13195]: time="2022-05-18T00:41:46.772080003-03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+mai 18 00:41:46 Aspire-E5-574 dockerd[13195]: time="2022-05-18T00:41:46.871331387-03:00" level=info msg="Loading containers: done."
+mai 18 00:41:47 Aspire-E5-574 dockerd[13195]: time="2022-05-18T00:41:47.138154539-03:00" level=info msg="Docker daemon" commit=f756502 graphdriver(s)=overlay2 version=20.10.16
+mai 18 00:41:47 Aspire-E5-574 dockerd[13195]: time="2022-05-18T00:41:47.138651223-03:00" level=info msg="Daemon has completed initialization"
+mai 18 00:41:47 Aspire-E5-574 systemd[1]: Started Docker Application Container Engine.
+mai 18 00:41:47 Aspire-E5-574 dockerd[13195]: time="2022-05-18T00:41:47.231576993-03:00" level=info msg="API listen on /run/docker.sock"
