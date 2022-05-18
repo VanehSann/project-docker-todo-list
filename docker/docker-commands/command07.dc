@@ -1,2 +1,2 @@
 docker run -d -p http://localhost:3000
-docker run -d -p 3000:80 nginx:1.21.3-alpine
+docker run -d -p 3000:80 --name 02images nginx:1.21.3-alpine
