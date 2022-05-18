@@ -1,3 +1,1 @@
-#docker-compose up --build ./docker/docker-compose.yml
-#docker-compose logs -f --tail=100 ./docker/docker-compose.yml
-docker-compose up
+docker-compose up -d
