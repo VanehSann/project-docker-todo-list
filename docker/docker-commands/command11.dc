@@ -1,1 +1,1 @@
-docker image build -t todotests ./todo-app/
+docker image build -t todotests ./todo-app/front-end
