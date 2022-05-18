@@ -1,4 +1,2 @@
 docker-compose up --build ./docker/docker-compose.yml
-docker-compose logs -f --tail=100 todoback
-docker-compose logs -f --tail=100 todofront
-docker-compose logs -f --tail=100 todotests
+docker-compose logs -f --tail=100 ./docker/docker-compose.yml
