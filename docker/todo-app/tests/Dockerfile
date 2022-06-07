@@ -1,8 +1,8 @@
-FROM node:14-alpine AS build
+FROM mjgargani/puppeteer:trybe1.0
 WORKDIR /app
+# COPY . .
+# RUN npm install
+ADD node_modules.tar.gz .
 COPY . .
-RUN npm install
-COPY . .
-# ADD node_modules.tar.gz .
-EXPOSE 3001
-ENTRYPOINT [ "npm", "test" ]
+# EXPOSE 3001
+CMD [ "npm", "test" ]
