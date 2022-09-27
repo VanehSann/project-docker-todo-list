@@ -30,7 +30,7 @@
 <table>
     <tr>
       <td><br>
-        <p align="left"> Temos um aplicativo de tarefas, full stack e foi preciso Conteinerizar as aplicações ( front-end, back-end e teste ), criar uma conexão com elas e orquestrar o funcionamento para que cada aplicação converse uma com a outra.</p> </td>
+        <p align="left">  Recebemos um aplicativo de tarefas, full stack e foi preciso Conteinerizar as aplicações ( front-end, back-end e teste ), criar uma conexão entre as aplicações e orquestrar o funcionamento para que cada aplicação converse uma com a outra.</p> </td>
   </tr>
     <tr>
       <td><br>
