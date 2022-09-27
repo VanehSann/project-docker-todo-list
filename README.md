@@ -66,7 +66,6 @@
       <b>Urgência</b>
     </td>
   </tr>
-  
      <tr>
     <td>Add README and site English Version</td>
     <td>🟢</td>
